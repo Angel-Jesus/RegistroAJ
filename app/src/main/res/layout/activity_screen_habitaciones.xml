@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScreenHabitaciones">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="4"
+        android:layout_gravity="center">
+
+        <TableRow>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="40dp">
+
+                <ImageButton
+                    android:id="@+id/h101"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h101S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h101"
+                    app:layout_constraintStart_toStartOf="@+id/h101" />
+
+                <TextView
+                    android:id="@+id/txt101"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="101"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h101S"
+                    app:layout_constraintEnd_toEndOf="@+id/h101"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h101" />
+
+                <TextView
+                    android:id="@+id/L101"
+                    android:layout_width="207dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h101"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h101"
+                    app:layout_constraintTop_toTopOf="@+id/h101" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h102"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h102S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h102"
+                    app:layout_constraintStart_toStartOf="@+id/h102" />
+
+                <TextView
+                    android:id="@+id/txt102"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="102"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h102S"
+                    app:layout_constraintEnd_toEndOf="@+id/h102"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h102" />
+
+                <TextView
+                    android:id="@+id/L102"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h102"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h102"
+                    app:layout_constraintTop_toTopOf="@+id/h102" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h103"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h103S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h103"
+                    app:layout_constraintStart_toStartOf="@+id/h103" />
+
+                <TextView
+                    android:id="@+id/txt103"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="103"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h103S"
+                    app:layout_constraintEnd_toEndOf="@+id/h103"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h103" />
+
+                <TextView
+                    android:id="@+id/L103"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h103"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h103"
+                    app:layout_constraintTop_toTopOf="@+id/h103" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h104"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h104S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS30"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h104"
+                    app:layout_constraintStart_toStartOf="@+id/h104" />
+
+                <TextView
+                    android:id="@+id/txt104"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="104"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h104S"
+                    app:layout_constraintEnd_toEndOf="@+id/h104"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h104" />
+
+                <TextView
+                    android:id="@+id/L104"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h104"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h104"
+                    app:layout_constraintTop_toTopOf="@+id/h104" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h105"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h105S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS60"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h105"
+                    app:layout_constraintStart_toStartOf="@+id/h105" />
+
+                <TextView
+                    android:id="@+id/txt105"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="105"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h105S"
+                    app:layout_constraintEnd_toEndOf="@+id/h105"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h105" />
+
+                <TextView
+                    android:id="@+id/L105"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h105"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h105"
+                    app:layout_constraintTop_toTopOf="@+id/h105" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="40dp">
+
+                <ImageButton
+                    android:id="@+id/h106"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h106S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS50"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h106"
+                    app:layout_constraintStart_toStartOf="@+id/h106" />
+
+                <TextView
+                    android:id="@+id/txt106"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="106"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h106S"
+                    app:layout_constraintEnd_toEndOf="@+id/h106"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h106" />
+
+                <TextView
+                    android:id="@+id/L106"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h106"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h106"
+                    app:layout_constraintTop_toTopOf="@+id/h106" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h107"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h107S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS40"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h107"
+                    app:layout_constraintStart_toStartOf="@+id/h107" />
+
+                <TextView
+                    android:id="@+id/txt107"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="107"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h107S"
+                    app:layout_constraintEnd_toEndOf="@+id/h107"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h107" />
+
+                <TextView
+                    android:id="@+id/L107"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h107"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h107"
+                    app:layout_constraintTop_toTopOf="@+id/h107" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h108"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h108S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS40"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h108"
+                    app:layout_constraintStart_toStartOf="@+id/h108" />
+
+                <TextView
+                    android:id="@+id/txt108"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="108"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h108S"
+                    app:layout_constraintEnd_toEndOf="@+id/h108"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h108" />
+
+                <TextView
+                    android:id="@+id/L108"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h108"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h108"
+                    app:layout_constraintTop_toTopOf="@+id/h108" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h201"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h201S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS80"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h201"
+                    app:layout_constraintStart_toStartOf="@+id/h201" />
+
+                <TextView
+                    android:id="@+id/txt201"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="201"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h201S"
+                    app:layout_constraintEnd_toEndOf="@+id/h201"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h201" />
+
+                <TextView
+                    android:id="@+id/L201"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="1dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h201"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h201"
+                    app:layout_constraintTop_toTopOf="@+id/h201" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h202"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h202S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS50"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h202"
+                    app:layout_constraintStart_toStartOf="@+id/h202" />
+
+                <TextView
+                    android:id="@+id/txt202"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="202"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h202S"
+                    app:layout_constraintEnd_toEndOf="@+id/h202"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h202" />
+
+                <TextView
+                    android:id="@+id/L202"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h202"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h202"
+                    app:layout_constraintTop_toTopOf="@+id/h202" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow>
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="40dp">
+
+                <ImageButton
+                    android:id="@+id/h203"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h203S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS50"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h203"
+                    app:layout_constraintStart_toStartOf="@+id/h203" />
+
+                <TextView
+                    android:id="@+id/txt203"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="203"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h203S"
+                    app:layout_constraintEnd_toEndOf="@+id/h203"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h203" />
+
+                <TextView
+                    android:id="@+id/L203"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h203"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h203"
+                    app:layout_constraintTop_toTopOf="@+id/h203" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h204"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h204S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS40"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h204"
+                    app:layout_constraintStart_toStartOf="@+id/h204" />
+
+                <TextView
+                    android:id="@+id/txt204"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="204"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h204S"
+                    app:layout_constraintEnd_toEndOf="@+id/h204"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h204" />
+
+                <TextView
+                    android:id="@+id/L204"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h204"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h204"
+                    app:layout_constraintTop_toTopOf="@+id/h204" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h205"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h205S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS40"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h205"
+                    app:layout_constraintStart_toStartOf="@+id/h205" />
+
+                <TextView
+                    android:id="@+id/txt205"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="205"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h205S"
+                    app:layout_constraintEnd_toEndOf="@+id/h205"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h205" />
+
+                <TextView
+                    android:id="@+id/L205"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h205"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h205"
+                    app:layout_constraintTop_toTopOf="@+id/h205" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h206"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h206S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS80"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h206"
+                    app:layout_constraintStart_toStartOf="@+id/h206" />
+
+                <TextView
+                    android:id="@+id/txt206"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="206"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h206S"
+                    app:layout_constraintEnd_toEndOf="@+id/h206"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h206" />
+
+                <TextView
+                    android:id="@+id/L206"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h206"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h206"
+                    app:layout_constraintTop_toTopOf="@+id/h206" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="0dp">
+
+                <ImageButton
+                    android:id="@+id/h207"
+                    android:layout_width="222dp"
+                    android:layout_height="164dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/habitacion_on"
+                    android:contentDescription="todo" />
+
+                <TextView
+                    android:id="@+id/h207S"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:layout_marginBottom="8dp"
+                    android:gravity="center"
+                    android:text="@string/txtS50"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/h207"
+                    app:layout_constraintStart_toStartOf="@+id/h207" />
+
+                <TextView
+                    android:id="@+id/txt207"
+                    android:layout_width="77dp"
+                    android:layout_height="31dp"
+                    android:gravity="center"
+                    android:text="207"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/h207S"
+                    app:layout_constraintEnd_toEndOf="@+id/h207"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="@+id/h207" />
+
+                <TextView
+                    android:id="@+id/L207"
+                    android:layout_width="210dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="@string/Hd"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/h207"
+                    app:layout_constraintHorizontal_bias="0.533"
+                    app:layout_constraintStart_toStartOf="@+id/h207"
+                    app:layout_constraintTop_toTopOf="@+id/h207" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+
+    </TableLayout>
+
+</ScrollView>

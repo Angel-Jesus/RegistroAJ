@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Registro AJ</string>
+    <string name="registro">Registrar</string>
+    <string name="consulta">Consultar</string>
+    <string name="habitaciones">Habitaciones disponibles</string>
+    <string name="logo">Logo</string>
+    <string name="nhabitaciones">N° habitacion</string>
+    <string name="an">Apellidos y Nombres</string>
+    <string name="dni">DNI</string>
+    <string name="precio">Precio</string>
+    <string name="procedencia">Procedencia</string>
+    <string name="observaciones">Observaciones</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="guardar">Guardar</string>
+    <string name="filtro">Filtro</string>
+    <string name="textFiltro">Aplicar Filtro</string>
+    <string name="textDelete">Limpiar Filtro</string>
+    <string name="textCantidad">N° clientes registrados</string>
+    <string name="textMensaje">¿Que acción desea realizar?</string>
+    <string name="textEliminar">Eliminar registro</string>
+    <string name="textModificar">Actualizar registro</string>
+    <string name="textActualizar">Actualizar</string>
+    <string name="textCambio">Corregir dato</string>
+    <string name="txtS30">S/. 30</string>
+    <string name="txtS60">S/. 60</string>
+    <string name="txtS40">S/. 40</string>
+    <string name="txtS50">S/. 50</string>
+    <string name="txtS80">S/. 80</string>
+    <string name="Hd">Disponible</string>
+    <string name="HO">Ocupado</string>
+</resources>
