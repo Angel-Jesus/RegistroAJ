@@ -293,9 +293,10 @@
                 android:gravity="center"
                 android:text="@string/textCantidad"
                 android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/cantidad"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                app:layout_constraintVertical_bias="0.96" />
 
             <TextView
                 android:id="@+id/cantidad"
@@ -304,13 +305,41 @@
                 android:layout_marginEnd="60dp"
                 android:layout_marginBottom="80dp"
                 android:background="@drawable/text_style"
+                android:gravity="center"
                 android:text="0"
                 android:textColor="@color/black"
                 android:textStyle="bold"
-                android:gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+                app:layout_constraintVertical_bias="0.833" />
+
+            <TextView
+                android:id="@+id/Monto"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="77dp"
+                android:gravity="center"
+                android:text="@string/textMonto"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txt_monto" />
+
+            <TextView
+                android:id="@+id/txt_monto"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="80dp"
+                android:background="@drawable/text_style"
+                android:gravity="center"
+                android:text="S/. 0"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtCantidad"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.833" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

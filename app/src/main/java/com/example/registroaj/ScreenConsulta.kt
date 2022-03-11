@@ -118,7 +118,7 @@ class ScreenConsulta : AppCompatActivity() {
     }
 
     private fun cliente_datos(context: Context, type:String, pos: Int, pos_fecha: Int): JsonObjectRequest {
-        val url = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1pc00XXcYE7gKapkw24tRiKf46SdreeZzvb43FEGFlhI&sheet=formulario1"
+        val url = "URL POST google sheet"
         val request = JsonObjectRequest(
             Request.Method.GET,url,null,
             { response ->
@@ -154,6 +154,7 @@ class ScreenConsulta : AppCompatActivity() {
         arrayForm.clear()
 
         var j = 0
+        var monto = 0
         for(i in 0 until size){
             var index = jArrayFormulario.getJSONObject(i)
             when(position){
@@ -169,8 +170,9 @@ class ScreenConsulta : AppCompatActivity() {
                             index.getString("Procedencia"),
                             index.getString("Observaciones"),
                             index.getInt("id").toString()
+                            )
                         )
-                        )
+                        monto += index.getString("Precio").toInt()
                         j++
                     }
                 }
@@ -187,8 +189,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -204,8 +207,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -221,8 +225,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -242,8 +247,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -259,8 +265,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -276,8 +283,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -296,8 +304,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -313,8 +322,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -330,8 +340,9 @@ class ScreenConsulta : AppCompatActivity() {
                                 index.getString("Procedencia"),
                                 index.getString("Observaciones"),
                                 index.getInt("id").toString()
+                                )
                             )
-                            )
+                            monto += index.getString("Precio").toInt()
                             j++
                         }
                     }
@@ -339,8 +350,9 @@ class ScreenConsulta : AppCompatActivity() {
             }
         }
         binding.progressBar.isGone = true
-        binding.recyclerClientes.adapter = ClientesAdapter(arrayForm) { onItemSelected(it) }
+        binding.recyclerClientes.adapter = ClientesAdapter(arrayForm) {onItemSelected(it)}
         binding.cantidad.text = arrayForm.size.toString()
+        binding.txtMonto.text = "S/. $monto"
     }
 
     fun onItemSelected(clientesDatos: clientesDatos){

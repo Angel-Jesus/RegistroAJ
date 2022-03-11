@@ -9,10 +9,14 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 
 class enviarDatosUrl(val context: Context, cliente:ArrayList<String>, private val progress:ProgressBar) {
-
-    val urlTodo = "https://docs.google.com/forms/d/e/1FAIpQLSf00TdVUZYuJtj8gMJf1NfNmFDJnnY3SP4unjaijeHKFOygPg/formResponse?usp=pp_url&entry.1355511849='${cliente[0]}&entry.1239323002=${cliente[1]}&entry.310648117=${cliente[2]}&entry.1438208562=${cliente[3]}&entry.397742594='${cliente[4]}&entry.1625760868='${cliente[5]}&entry.146480289=${cliente[6]}&entry.703144027=${cliente[7]}&entry.240160237=POST&entry.368901014=${cliente[8]}"
-    val urlDelete = "https://docs.google.com/forms/d/e/1FAIpQLSf00TdVUZYuJtj8gMJf1NfNmFDJnnY3SP4unjaijeHKFOygPg/formResponse?usp=pp_url&entry.240160237=DELETE&entry.368901014=${cliente[8]}"
-    val urlUpdate = "https://docs.google.com/forms/d/e/1FAIpQLSf00TdVUZYuJtj8gMJf1NfNmFDJnnY3SP4unjaijeHKFOygPg/formResponse?usp=pp_url&entry.1355511849='${cliente[0]}&entry.1239323002=${cliente[1]}&entry.310648117=${cliente[2]}&entry.1438208562=${cliente[3]}&entry.397742594='${cliente[4]}&entry.1625760868='${cliente[5]}&entry.146480289=${cliente[6]}&entry.703144027=${cliente[7]}&entry.240160237=UPDATE&entry.368901014=${cliente[8]}"
+    /*
+    val urlTodo = "Ingrese aqui la url de su base de datos en google sheet"
+    val urlDelete = "Ingrese aqui la url de su base de datos en google sheet"
+    val urlUpdate = "Ingrese aqui la url de su base de datos en google sheet"
+    */
+    val urlTodo = "Ingresar el url"
+    val urlDelete = "Ingresar el url"
+    val urlUpdate = "Ingresar el url"
     fun todosLosDatos(){
         enviarDatos(urlTodo,"G")
     }

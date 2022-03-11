@@ -6,6 +6,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.view.isVisible
 import com.android.volley.Request
 import com.android.volley.Response
@@ -41,8 +42,36 @@ class ScreenRegistro : AppCompatActivity() {
 
         //Funcion para guadar los datos
         binding.btnGuardar.setOnClickListener {
-            VolleySingleton.getInstance(this).addToRequestQueue(cliente_datos(this))
+            val date = binding.editFecha.text.toString()
+            val hora = binding.editHora.text.toString()
+            val dni = binding.editDni.text.toString()
+            val alert = AlertDialog.Builder(this)
+            alert.setTitle("Precaucion")
+
+            if(date == "" || hora == ""){
+                alert.setMessage("No ha ingresado la fecha o hora, completar")
+                alert.setCancelable(true)
+                alert.setPositiveButton("OK"){ btn, _ ->
+                    btn.cancel()
+                }
+                alert.show()
+            }else if (dni.length in 1..7){
+                alert.setMessage("La cantidad de numeros del DNI ingresado es menor a 8 numeros,¿Desea registrarlo de todas formas?")
+                alert.setCancelable(true)
+                alert.setPositiveButton("OK"){ btn, _ ->
+                    btn.cancel()
+                }
+                alert.setNeutralButton("Ingresar de todas formas"){btnN, _ ->
+                    VolleySingleton.getInstance(this).addToRequestQueue(cliente_datos(this))
+                    btnN.cancel()
+                }
+                alert.show()
+            }
+            else{
+                VolleySingleton.getInstance(this).addToRequestQueue(cliente_datos(this))
+            }
         }
+
         //Funcion para ir a la ventana consular
         binding.btnConsulta.setOnClickListener {
             startActivity(Intent(this,ScreenConsulta::class.java))
@@ -51,7 +80,7 @@ class ScreenRegistro : AppCompatActivity() {
     }
 
     private fun cliente_datos(context: Context): JsonObjectRequest {
-        val url = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1pc00XXcYE7gKapkw24tRiKf46SdreeZzvb43FEGFlhI&sheet=formulario1"
+        val url = "URL POST de google sheet"
         val request = JsonObjectRequest(
             Request.Method.GET,url,null,
             { response ->
@@ -108,8 +137,7 @@ class ScreenRegistro : AppCompatActivity() {
         val progress = binding.cargando
         binding.cargando.isVisible = true
         enviarDatosUrl(this,datos, progress).todosLosDatos()
-        val intent = Intent(this,ScreenHabitaciones::class.java)
-        intent.putExtra("registro_dato",Habitacion)
+
     }
 
     private fun mostrarHora(){

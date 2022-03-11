@@ -29,4 +29,5 @@
     <string name="txtS80">S/. 80</string>
     <string name="Hd">Disponible</string>
     <string name="HO">Ocupado</string>
+    <string name="textMonto">Ingreso total</string>
 </resources>
