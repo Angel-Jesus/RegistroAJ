@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val btnRegistro: Button = findViewById(R.id.registro)
         val btnConsulta: Button = findViewById(R.id.consulta)
         val btnHabitaciones: Button = findViewById(R.id.habitaciones)
+        val btnProducto: Button = findViewById(R.id.btnProductos)
 
         btnRegistro.setOnClickListener {
             startActivity(Intent(this, ScreenRegistro::class.java))
@@ -27,6 +28,10 @@ class MainActivity : AppCompatActivity() {
 
         btnHabitaciones.setOnClickListener {
             startActivity(Intent(this, ScreenHabitaciones::class.java))
+        }
+
+        btnProducto.setOnClickListener {
+            startActivity(Intent(this,ScreenProductos::class.java))
         }
     }
 }

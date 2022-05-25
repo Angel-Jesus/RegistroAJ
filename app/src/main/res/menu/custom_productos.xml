@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/error_id"
+        android:icon="@drawable/ic_error"
+        android:title="historial"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/historial"
+        android:icon="@drawable/ic_historial"
+        android:title="historial"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/vender"
+        android:icon="@drawable/ic_sell"
+        android:title="Vender"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/configuracion_productos"
+        android:icon="@drawable/ic_setting"
+        android:title="Configurar"
+        app:showAsAction="always"
+        />
+</menu>

@@ -289,7 +289,7 @@
                 android:id="@+id/txtCantidad"
                 android:layout_width="100dp"
                 android:layout_height="40dp"
-                android:layout_marginBottom="80dp"
+                android:layout_marginBottom="75dp"
                 android:gravity="center"
                 android:text="@string/textCantidad"
                 android:textColor="@color/black"
@@ -302,11 +302,11 @@
                 android:id="@+id/cantidad"
                 android:layout_width="100dp"
                 android:layout_height="30dp"
-                android:layout_marginEnd="60dp"
-                android:layout_marginBottom="80dp"
+                android:layout_marginEnd="200dp"
+                android:layout_marginBottom="75dp"
                 android:background="@drawable/text_style"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/_0"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -314,32 +314,17 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.833" />
 
-            <TextView
-                android:id="@+id/Monto"
-                android:layout_width="100dp"
-                android:layout_height="40dp"
-                android:layout_marginBottom="77dp"
-                android:gravity="center"
+            <Button
+                android:id="@+id/btnIngreso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginBottom="75dp"
                 android:text="@string/textMonto"
-                android:textColor="@color/black"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/txt_monto" />
-
-            <TextView
-                android:id="@+id/txt_monto"
-                android:layout_width="100dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="50dp"
-                android:layout_marginBottom="80dp"
-                android:background="@drawable/text_style"
-                android:gravity="center"
-                android:text="S/. 0"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/txtCantidad"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.833" />
+                app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

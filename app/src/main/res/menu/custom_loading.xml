@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/Datos_mes"
+        android:title="DataMes"
+        android:icon="@drawable/ic_historial"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/loading"
+        android:icon="@drawable/ic_loading"
+        android:title="loading"
+        app:showAsAction="always"
+        />
+</menu>

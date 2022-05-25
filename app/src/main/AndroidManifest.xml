@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
+        android:name=".preferencesHabitacion.DataHotel"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,9 +14,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RegistroAJ">
         <activity
-            android:name=".ScreenConsulta"
-            android:screenOrientation="landscape"
+            android:name=".ScreenHistorialProductos"
             android:exported="false" />
+        <activity
+            android:name=".ScreenSellProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenEstadistica"
+            android:exported="false" />
+        <activity
+            android:name=".productos.ScreenConfProd"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenProductos"
+            android:exported="false" />
+        <activity
+            android:name=".ScreenConsulta"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".ScreenHabitaciones"
             android:exported="false"

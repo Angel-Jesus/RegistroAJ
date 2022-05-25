@@ -384,6 +384,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:enabled="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.225"
@@ -401,6 +402,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
+                android:enabled="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.705"
@@ -408,13 +410,6 @@
                 app:layout_constraintVertical_bias="0.427" />
 
         </LinearLayout>
-
-        <ProgressBar
-            android:id="@+id/cargando"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="match_parent"
-            android:visibility="gone"
-            android:layout_height="100dp" />
 
     </LinearLayout>
 

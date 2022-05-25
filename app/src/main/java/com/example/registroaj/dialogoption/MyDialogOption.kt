@@ -1,11 +1,12 @@
-package com.example.registroaj
+package com.example.registroaj.dialogoption
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
-import android.widget.ProgressBar
 import androidx.fragment.app.DialogFragment
+import com.example.registroaj.R
+import com.example.registroaj.clientesDatos
 import com.example.registroaj.funcioneshttp.enviarDatosUrl
 import com.google.android.material.textfield.TextInputEditText
 
@@ -25,12 +26,12 @@ class MyDialogOption(private val datos: clientesDatos): DialogFragment(){
                         break
                     }
                 }
-                enviarDatosUrl(requireContext(), registro, progress = ProgressBar(requireContext())).modificar()
+                enviarDatosUrl(requireContext(), registro).modificar()
             }
             alertDialog.setNegativeButton("Eliminar Registro") { _, _ ->
                 val modificaciones = arrayListOf<String>()
                 modificaciones.addAll(listOf(" ", " ", " ", " ", " ", " ", " ", " ", datos.id))
-                enviarDatosUrl(requireContext(), modificaciones, progress = ProgressBar(requireContext())).eliminar()
+                enviarDatosUrl(requireContext(), modificaciones).eliminar()
             }
             alertDialog.create()
         }?:throw IllegalStateException("Activity is null!")

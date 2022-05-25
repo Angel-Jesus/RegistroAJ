@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingStart="0dp"
+    android:paddingEnd="20dp">
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="20dp"
+        android:text="TextView"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/day_count"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count2"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day3"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count3"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day4"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count4"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day5"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count5"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day6"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count6"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day7"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count7"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/day8"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:paddingStart="30dp"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/day_count8"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:background="@drawable/drawtabla"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="#000000" />
+
+</TableRow>
